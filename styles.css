@@ -1,0 +1,141 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87cefa; /* Color blau cel */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  /* Container */
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  /* Form per afegir tasques */
+  .add-task {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #new-task {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  #add-task-btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Tauler de tasques */
+  .task-board {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .task-column {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .task {
+    background: #e0f7fa;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task:hover {
+    background: #b2ebf2;
+  }
+  
+  .fetes .task {
+    background: #c8e6c9;
+  }
+  
+  .fetes .task:hover {
+    background: #a5d6a7;
+  }
+  
+  /* Botons dins de les tasques */
+  .task button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px;
+    transition: color 0.3s;
+  }
+  
+  .task button:hover {
+    color: #f44336; /* Color de hover */
+  }
+  

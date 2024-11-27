@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tauler de Tasques</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Turrens Tasks</h1>
+  </header>
+  <div class="container">
+    <div class="add-task">
+      <input type="text" id="new-task" placeholder="Escriu una nova tasca..." />
+      <button id="add-task-btn">Afegir Tasca</button>
+    </div>
+    <div class="task-board">
+      <div class="task-column pendents">
+        <h2>Pendents</h2>
+        <ul id="pendents">
+          <!-- Llista inicial buida -->
+        </ul>
+      </div>
+      <div class="task-column fetes">
+        <h2>Fetes</h2>
+        <ul id="fetes"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
